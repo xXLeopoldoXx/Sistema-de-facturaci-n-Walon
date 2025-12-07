@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>FACTURA F-000005</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+.header { text-align: center; border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 20px; }
+.titulo { font-size: 24px; font-weight: bold; }
+.numero { font-size: 18px; font-weight: bold; margin: 10px 0; }
+.empresa, .cliente { margin: 15px 0; }
+.empresa h3, .cliente h3 { margin-bottom: 5px; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; font-weight: bold; }
+.totales { float: right; width: 300px; margin-top: 20px; }
+.totales table { width: 100%; }
+.total-final { font-size: 18px; font-weight: bold; background-color: #e0e0e0; }
+.pie { margin-top: 30px; text-align: center; font-size: 12px; color: #666; }
+@media print { body { margin: 0; } }
+</style>
+</head>
+<body>
+<div class='header'>
+<div class='titulo'>FACTURA ELECTRÓNICA</div>
+<div class='numero'>N° F-000005</div>
+<div>Fecha: 06/12/2025 16:35</div>
+</div>
+<div class='empresa'>
+<h3>EMPRESA:</h3>
+<p><strong>TIENDA WALON</strong><br>
+RUC: 20123456789<br>
+Av. Principal 123, Lima, Perú<br>
+Tel: 01-1234567 | Email: ventas@tiendawalon.com</p>
+</div>
+<div class='cliente'>
+<h3>CLIENTE:</h3>
+<p>Nombre: Leopoldo Brito Ruiz<br>
+DNI: 06005311<br>
+Dirección: Ate Vitarte</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descripción</th>
+<th>Cant.</th>
+<th>Precio Unit.</th>
+<th>Importe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PROD008</td>
+<td>Memoria USB 32GB</td>
+<td>2</td>
+<td>S/ 15.00</td>
+<td>S/ 30.00</td>
+</tr>
+</tbody>
+</table>
+<div class='totales'>
+<table>
+<tr><td><strong>Subtotal:</strong></td><td>S/ 30.00</td></tr>
+<tr><td><strong>IGV (18%):</strong></td><td>S/ 5.40</td></tr>
+<tr class='total-final'><td><strong>TOTAL:</strong></td><td>S/ 35.40</td></tr>
+</table>
+</div>
+<div style='clear: both;'></div>
+<div class='pie'>
+<p>Tipo de Venta: MENOR</p>
+<p><strong>Gracias por su compra!</strong></p>
+<p>www.tiendawalon.com | ventas@tiendawalon.com</p>
+</div>
+</body>
+</html>
